@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body{
+    background-image: url(img/fond.png);
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-left :300px;
+    font-family: "oswald" , sans-serif;
+}
+header{
+    display: inline-block;
+    width: auto;
+    align-items: center;
+    padding: 5px;
+    background-color: #B8CB21;
+    width: 800px;
+}
+.logo,.navigation-list{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-item{
+    display:inline;
+    padding: 20px;
+}
+.navigation-list{
+    float: right;
+    padding-top: 40px;
+}
+.navigation-link{
+    color: black;
+    font-size: 1.4em;
+}
+main{
+    background-color: white;
+    width: 770px;
+    height: 700px;
+    padding: 20px;
+}
+.icon1,.who-title,.what-title{
+    display: inline-block;
+    color: #B8CB21;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.who-image,.what-image{
+    float: left;
+    height: 100px;
+    width: 250px;
+    margin-right: 20px;
+}
+.text1{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.text2{
+    float: none;
+}
+button{
+float: right;
+background-color: #B8CB21;
+border: none;
+padding: 10px;
+}
+button:hover{
+    transform: scale(1.2) rotate(180deg);
+    transition: .5s;
+}
+footer{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+.img-3w{
+    width: 60px;
+    height: 50px;
+}
+i{
+    color: #B8CB21;
+}
